@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\durit\Desktop\CourseWork\CourseWork\obj\Debug\
+C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\obj\Debug\
 CourseWork
 none
 false
 DEBUG;TRACE
-C:\Users\durit\Desktop\CourseWork\CourseWork\App.xaml
-2526798695
-2-1525020150
-8-474474789
-13-1505183044
-MainWindow.xaml;Views\Dashboard.xaml;
+C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\App.xaml
+4-1757576948
+2-125111037
+91433065547
+44258142287
+MainWindow.xaml;Views\AddStudent.xaml;Views\Dashboard.xaml;Views\ModernButtonTheme.xaml;
 
-False
+True
 

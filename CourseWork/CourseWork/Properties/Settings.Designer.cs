@@ -25,8 +25,9 @@ namespace CourseWork.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\durit\\Desktop\\Course" +
-            "Work\\CourseWork\\Resources\\Database\\db_local.mdf;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\durit\\Desktop\\Projec" +
+            "ts\\CourseWork\\CourseWork\\CourseWork\\Resources\\Database\\localDB.mdf;Integrated Se" +
+            "curity=True")]
         public string connection_string {
             get {
                 return ((string)(this["connection_string"]));
