@@ -61,20 +61,35 @@ namespace CourseWork
 
         private void Attendance_Click(object sender, RoutedEventArgs e)
         {
+            VisitsList visitsList = new VisitsList();
+            visitsList.Show();
+            this.Close();
         }
         private void StudentsList_Click(object sender, RoutedEventArgs e)
         {
+            StudentsList studentsList = new StudentsList();
+            studentsList.Show();
+            this.Close();
         }
         private void AttendanceAdd_Click(object sender, RoutedEventArgs e)
         {
+            AddVisit addVisit = new AddVisit();
+            addVisit.Show();
+            this.Close();
         }
 
         private void AddModule_Click(object sender, RoutedEventArgs e)
         {
+            AddModule addModule = new AddModule();
+            addModule.Show();
+            this.Close();
         }
 
         private void ModulesList_Click(object sender, RoutedEventArgs e)
         {
+            ModulesList modulesList = new ModulesList();
+            modulesList.Show();
+            this.Close();
         }
 
     }

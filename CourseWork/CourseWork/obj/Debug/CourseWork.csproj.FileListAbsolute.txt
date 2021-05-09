@@ -135,3 +135,13 @@ C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\obj\Debug\Cours
 C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\obj\Debug\Views\ModernButtonTheme.baml
 C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\obj\Debug\Views\AddStudent.g.cs
 C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\obj\Debug\Views\AddStudent.baml
+C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\obj\Debug\Views\StudentsList.g.cs
+C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\obj\Debug\Views\StudentsList.baml
+C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\obj\Debug\Views\AddModule.g.cs
+C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\obj\Debug\Views\AddModule.baml
+C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\obj\Debug\Views\ModulesList.g.cs
+C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\obj\Debug\Views\ModulesList.baml
+C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\obj\Debug\Views\AddVisit.g.cs
+C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\obj\Debug\Views\AddVisit.baml
+C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\obj\Debug\Views\VisitsList.g.cs
+C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\obj\Debug\Views\VisitsList.baml

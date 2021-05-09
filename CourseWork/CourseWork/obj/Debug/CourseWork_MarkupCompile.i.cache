@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\durit\Desktop\Projects\CourseWork\CourseWork\CourseWork\App.xaml
-4-1757576948
+91464353211
 2-125111037
-10590706180
+18-204887767
 44258142287
-MainWindow.xaml;Views\AddStudent.xaml;Views\Dashboard.xaml;Views\ModernButtonTheme.xaml;
+MainWindow.xaml;Views\AddModule.xaml;Views\AddStudent.xaml;Views\AddVisit.xaml;Views\Dashboard.xaml;Views\ModernButtonTheme.xaml;Views\ModulesList.xaml;Views\StudentsList.xaml;Views\VisitsList.xaml;
 
-True
+False
 

@@ -1,0 +1,72 @@
+﻿<Window x:Class="CourseWork.Views.StudentsList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseWork.Views"
+        mc:Ignorable="d"
+        Title="CreditHistory" Height="450" Width="500"
+        AllowsTransparency="True" Background="Transparent"
+        WindowStyle="None" ResizeMode="NoResize"
+        MouseDown="Window_MouseDown">
+    <Window.Resources>
+    </Window.Resources>
+
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <Border CornerRadius="10" Grid.RowSpan="4" Grid.ColumnSpan="3">
+                <Border.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#7BE9F6" Offset="0.0"/>
+                        <GradientStop Color="#F083DA" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+
+            <ListBox Name="ThingsListBox" HorizontalAlignment="Center"
+                     VerticalAlignment="Top"
+                     Background="Transparent"
+                     Margin="0,60,0,0"
+                     Visibility="{Binding ElementName=ThingsListBox, 
+                              Path=Items.Count}">
+                <ListBox.Template>
+                    <ControlTemplate>
+                        <DockPanel LastChildFill="True" HorizontalAlignment="Center">
+                            <Grid DockPanel.Dock="Top" Height="30" HorizontalAlignment="Center">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"></ColumnDefinition>
+                                    <ColumnDefinition Width="100"></ColumnDefinition>
+                                    <ColumnDefinition Width="100"></ColumnDefinition>
+                                    <ColumnDefinition Width="100"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Column="0">Address</Label>
+                                <Label Grid.Column="1">Phone</Label>
+                                <Label Grid.Column="2">Parrent</Label>
+                                <Label Grid.Column="3">LivingInHostel</Label>
+                            </Grid>
+                            <ItemsPresenter></ItemsPresenter>
+                        </DockPanel>
+                    </ControlTemplate>
+                </ListBox.Template>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,0">
+                            <TextBlock Foreground="White" Width="100" Text="{Binding Address}"/>
+                            <TextBlock Foreground="White" Width="100" Text="{Binding Phone}"/>
+                            <TextBlock Foreground="White" Width="100" Text="{Binding ParrentFullName}"/>
+                            <TextBlock Foreground="White" Width="10050" Text="{Binding LivingInHostel}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <Button Grid.Row="1" Content="Back" Click="Back_Click" Margin="120,0,120,10"/>
+
+        </Grid>
+    </Grid>
+</Window>

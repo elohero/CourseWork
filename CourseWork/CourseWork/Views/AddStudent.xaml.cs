@@ -23,5 +23,50 @@ namespace CourseWork.Views
         {
             InitializeComponent();
         }
+
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                DragMove();
+            }
+        }
+
+        private void Register_Clicked(object sender, RoutedEventArgs e)
+        {
+            DatabaseManager.CreateStudent(AddressTextBox.Text, PhoneTextBox.Text, ParrentFullNameTextBox.Text, IsLivingInObchagaTextBox.Text);
+
+            Dashboard dashboard = new Dashboard();
+            dashboard.Show();
+            this.Close();
+        }
+
+        private void ParrentFullNameTextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            TextBox utb = (TextBox)sender;
+            utb.Text = string.Empty;
+            utb.GotFocus -= ParrentFullNameTextBox_GotFocus;
+        }
+
+        private void IsLivingInObchagaTextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            TextBox ptb = (TextBox)sender;
+            ptb.Text = string.Empty;
+            ptb.GotFocus -= IsLivingInObchagaTextBox_GotFocus;
+        }
+
+        private void AddressTextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            TextBox utb = (TextBox)sender;
+            utb.Text = string.Empty;
+            utb.GotFocus -= AddressTextBox_GotFocus;
+        }
+
+        private void PhoneTextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            TextBox utb = (TextBox)sender;
+            utb.Text = string.Empty;
+            utb.GotFocus -= PhoneTextBox_GotFocus;
+        }
     }
 }
